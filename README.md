@@ -15,7 +15,7 @@ import (
 )
 
 func main () {
-	sics := sec_sic_scraper.Get()
+	sics := sec_sic_scraper.Get(nil)
 	
 	fmt.Printf("%+v", sics)
 }
